@@ -1,0 +1,16 @@
+### Hello World
+GET http://127.0.0.1:5000/hello-word
+
+
+### Login
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123"
+}
+
+
+### Logout
+GET http://127.0.0.1:5000/logout
