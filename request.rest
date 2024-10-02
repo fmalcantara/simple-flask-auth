@@ -11,6 +11,31 @@ Content-Type: application/json
   "password": "123"
 }
 
+###Cadastro de usuário geral 
+POST http://127.0.0.1:5000/user
+Content-Type: application/json
+
+{
+  "username": "silva",
+  "password": "123"
+}
+
 
 ### Logout
 GET http://127.0.0.1:5000/logout
+
+
+### Buscar usuario Cadastrado por ID
+GET http://127.0.0.1:5000/user/3
+
+
+###Rota de atualização de cadastro - UPDATE 
+PUT http://127.0.0.1:5000/user/4
+Content-Type: application/json
+
+{
+  "password": "  "
+}
+
+### Deletar usuario 
+DELETE http://127.0.0.1:5000/user/1
