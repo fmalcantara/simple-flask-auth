@@ -7,7 +7,7 @@ POST http://127.0.0.1:5000/login
 Content-Type: application/json
 
 {
-  "username": "admin",
+  "username": "felipe",
   "password": "123"
 }
 
@@ -16,7 +16,7 @@ POST http://127.0.0.1:5000/user
 Content-Type: application/json
 
 {
-  "username": "silva",
+  "username": "felipe",
   "password": "123"
 }
 
@@ -26,15 +26,15 @@ GET http://127.0.0.1:5000/logout
 
 
 ### Buscar usuario Cadastrado por ID
-GET http://127.0.0.1:5000/user/3
+GET http://127.0.0.1:5000/user/1
 
 
 ###Rota de atualização de cadastro - UPDATE 
-PUT http://127.0.0.1:5000/user/4
+PUT http://127.0.0.1:5000/user/3
 Content-Type: application/json
 
 {
-  "password": "  "
+  "password": "123"
 }
 
 ### Deletar usuario 
